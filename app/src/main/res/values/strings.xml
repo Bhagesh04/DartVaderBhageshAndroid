@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CashRegisterPart1</string>
+    <string name="title_activity_new">NewActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="history_text">History</string>
+    <string name="Restock_text">Restock</string>
+    <string name="back_text">Back</string>
+    <string name="Header_text">Purchase History</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="Restock_view">Current Product Stock</string>
+    <string name="restockSubHead">Enter New Stock</string>
+    <string name="ok">Ok</string>
+</resources>

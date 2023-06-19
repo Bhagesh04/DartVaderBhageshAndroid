@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txt_restock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Restock_view"
+        android:textSize="20dp" 
+        android:paddingTop="30dp"
+        android:paddingLeft="80dp"
+        android:paddingRight="40dp" />
+    <ListView
+        android:id="@+id/restockListView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+       android:layout_below="@+id/txt_restock"
+        android:paddingTop="40dp"/>
+
+    <View
+        android:id="@+id/dividerRestock"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/restockListView"
+        android:background="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/restockTxt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/restockSubHead"
+        android:layout_below="@+id/dividerRestock"
+        android:paddingTop="25dp"
+        android:textSize="20dp"
+        android:paddingLeft="100dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restockTxt3"
+        android:hint="Enter a Value"
+        android:inputType="text"
+        android:paddingTop="25dp"
+        android:id="@+id/restockEditText"/>
+    <Button
+        android:id="@+id/restockOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/restockEditText"
+        android:layout_marginTop="70dp"
+        android:text="@string/ok"/>
+    <Button
+        android:id="@+id/restockBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/restockEditText"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/back_text"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/Header_text"
+     android:textSize="25dp"
+     android:layout_marginLeft="90dp"
+     android:layout_marginTop="20dp"
+     />
+
+ <ListView
+     android:id="@+id/H_list"
+     android:layout_width="match_parent"
+     android:layout_height="449dp"
+     android:layout_marginTop="60dp"
+     />
+
+ <Button
+     android:id="@+id/historyBack"
+     android:layout_width="80dp"
+     android:layout_height="wrap_content"
+     android:layout_below="@id/H_list"
+     android:layout_marginTop="100dp"
+     android:layout_marginLeft="180dp"
+     android:text="@string/back_text"/>
+
+
+
+</RelativeLayout>
